@@ -33,7 +33,7 @@ def analyze_post(self, post_info, post_number):
                 print("{}: {}".format(tag, post_info[tag]))
         print("")
 ```
-The code above uses TextBlob to perform a sentiment analysis on the title, based on the returned score it is classified as POSITIVE, NEUTRAL, or NEGATIVE. The title of the post is then check to see if it contains a coin, and based on that prints the remainder of the post information.
+The code above uses TextBlob to perform a sentiment analysis on the title, based on the returned score it is classified as POSITIVE, NEUTRAL, or NEGATIVE. The title of the post is then checked to see if it contains a coin, and based on that prints the remainder of the post information and potentially a recommendation to purchase the coin.
 
 ## Future Updates
 1. Consider the amount of views, comments, and upvotes the post has.
